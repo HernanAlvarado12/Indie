@@ -1,0 +1,169 @@
+:root {
+    --gray: #6b6b6b;
+    --purple: #664efc;
+    --fnt-lrg: 4.8rem;
+    --fnt-mdm: 3.2rem;
+    --fnt-smll: 1.5rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.4;
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a { text-decoration: none; }
+ul { list-style-type: none; }
+
+.header__nvbr {
+    height: 8rem;
+}
+
+.elmt--flx, .cntnr--flx {
+    display: flex;
+    align-items: center;
+}
+
+.elmt--grd, .cntnr--grd {
+    display: grid;
+}
+
+.elmt--flx-btwn, .cntnr--flx-btwn {
+    justify-content: space-between;
+}
+
+.elmt--wdtg, .cntnr--wdth {
+    width: 90%;
+}
+
+.elmt--mrgn-auto, .cntnr--mrgn-auto {
+    margin-inline: auto;
+}
+
+.main__img {
+    width: 100%;
+}
+
+.fnt--lrg {
+    font-weight: 800;
+    font-size: var(--fnt-lrg);
+}
+
+.fnt--mdm {
+    font-size: var(--fnt-mdm);
+}
+
+.fnt--smll {
+    font-weight: 400;
+    font-size: var(--fnt-smll);
+}
+
+.bttn {
+    height: 4rem;
+    border-radius: 0.4rem;
+    border: transparent;
+    background-color: var(--purple);
+}
+
+.bttn__lnk {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+}
+
+.bttn__lnk__spn {
+    color: white;
+    font-weight: 500;
+}
+
+.bttn__lnk__spn::after {
+    content: ' - its free';
+    font-weight: 100;
+}
+
+.cntnt__prgrph {
+    margin: 1.5rem 0;
+    color: var(--gray);
+}
+
+.main__sctn__scnd {
+    margin: 10rem 0 8rem 0;
+}
+
+.sctn__scnd_icons {
+    margin-bottom: 3rem;
+}
+
+.elmt--clr-prpl {
+    color: var(--purple);
+    font-weight: 800;
+}
+
+.sctn__scnd__phone {
+    margin: 5rem 0;
+}
+
+.sctn__fgr {
+    height: 5rem;
+    margin: 1.5rem 0 0.8rem 0;
+    position: relative;
+}
+
+.sctn__fgr > img {
+    position: absolute;
+}
+
+.sctn__fgr > img:nth-child(2){
+    left: 2rem;
+}
+
+.sctn__fgr > img:nth-child(3){
+    left: 4.5rem;
+}
+.sctn__fgr > img:nth-child(4){
+    left: 7rem;
+}
+.sctn__fgr > img:nth-child(5){
+    left: 9.5rem;
+}
+.sctn__fgr > img:nth-child(6){
+    left: 12rem;
+}
+.sctn__fgr > img:nth-child(7){
+    left: 14.5rem;
+}
+.sctn__fgr > img:nth-child(8){
+    left: 17rem;
+}
+.sctn__fgr > img:nth-child(9){
+    left: 19.5rem;
+}
+
+.footer__scnt {
+    margin: 5rem 0;
+    gap: 3rem 10rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer__scnt > ul > li:first-child > a {
+    color: black;
+    font-weight: 800;
+}
+
+.footer__scnt > ul > li {
+    margin: 0.5rem 0;
+}
+
+.footer__scnt > ul > li:first-child {
+    margin-bottom: 1.2rem;
+}
+
+.footer__scnt > ul > li > a {
+    color: var(--gray);
+}
