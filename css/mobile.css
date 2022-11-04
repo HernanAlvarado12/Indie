@@ -118,6 +118,7 @@ ul { list-style-type: none; }
 }
 
 .sctn__scnd__phone {
+    max-width: 30rem;
     margin: 5rem 0;
 }
 

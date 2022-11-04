@@ -1,5 +1,5 @@
 @media (min-width: 624px){
-    html {
+    main {
         --fnt-lrg: 5rem;
         --fnt-mdm: 3.4rem;
         --fnt-smll: 1.6rem;
@@ -38,7 +38,7 @@
         align-self: center;
     }
     
-    .sctn__scnd__phone, .footer__sctn {
+    .sctn__scnd__phone, .footer__sctn, .sctn__scnd_icons {
         margin: 0;
     }
 

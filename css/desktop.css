@@ -1,0 +1,46 @@
+@media (min-width: 900px){
+    .elmt--wdth, .cntnr--wdth {
+        width: 85%;
+    }
+
+    .main__cntnr {
+        margin-top: 5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main__sctn__frst {
+        order: -1;
+    }
+
+    .main__sctn__scnd {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+
+    .div__sbttl {
+        max-width: 52rem;
+    }
+
+    .cntnt__prgrph {
+        max-width: 58rem;
+    }
+
+    .sctn__access {
+        align-self: center;
+    }
+
+    .footer__cntnr {
+        justify-content: space-between;        
+    }
+
+    .footer__div {
+        width: 30rem;
+    }
+
+    .footer__sctn {
+        margin-right: 5rem;
+        display: flex;
+        column-gap: 5rem;
+    }
+
+
+}
