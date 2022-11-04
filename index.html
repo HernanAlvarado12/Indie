@@ -20,12 +20,23 @@
         <header>
             <nav class ="header__nvbr cntnr--wdth cntnr--mrgn-auto cntnr--flx cntnr--flx-btwn">
                 <img src ="./assets/logo.svg" alt ="Icon of the page official">
-                <img src ="./assets/menu.svg" alt ="Icon of menu">
+                <img class ="elmt--dlt" src ="./assets/menu.svg" alt ="Icon of menu">
+                <ul class ="nvbr__tbl fnt--smll">
+                   <li><a class ="elmt--clr-blck" href ="">Pricing</a></li>
+                   <li><a class ="elmt--clr-blck" href ="">Support</a></li> 
+                    <button class ="bttn">
+                        <a class ="bttn__lnk" href ="">
+                            <span class ="bttn__lnk__spn">Get Started</span>
+                        </a>
+                    </button>
+                </ul>
             </nav>
         </header>
 
         <main class ="cntnr--wdth cntnr--mrgn-auto">
-            <img class ="main__img" src ="./assets/feed.png" alt ="Picture of a laptop">
+            <figure class ="cntnr--ft-cntnt cntnr--mrgn-auto">
+                <img class ="img__phone main__img" src ="./assets/feed.png" alt ="Picture of a laptop">
+            </figure>
             <section class ="fnt--smll">
                 <h1 class ="fnt--lrg">Your weekly personal feed digest.</h1>
                 <p class ="cntnt__prgrph">
@@ -50,17 +61,21 @@
                 </figure>
                 <p class ="fnt--smll">Join <span>32,642</span> IndieBrewers in curationf their personal digest.</p>
             </section>
-            <section class ="main__sctn__scnd fnt--smll">
-                <img class ="sctn__scnd_icons main__img" src ="./assets/icons.png" alt ="Picture that content icons of pages">
-                <div>
+            <section class ="main__sctn__scnd cntnr--grd fnt--smll">
+                <figure class ="cntnr--ft-cntnt cntnr--mrgn-auto">
+                    <img class ="sctn__scnd_icons main__img" src ="./assets/icons.png" alt ="Picture that content icons of pages">
+                </figure>
+                <div class ="sctn__curate">
                     <h2 class ="fnt--mdm">Curate your feed from dozens of resources.</h2>
                     <p class ="cntnt__prgrph">
                         We cover all major platform where one could want to curate their feed from. Reddit, ProductHunt, IndieHacker, and so much more.
                     </p>
                     <a class ="elmt--clr-prpl" href ="">See full list of resources -></a>
                 </div>
-                <img class ="sctn__scnd__phone main__img" src ="./assets/phone.png" alt ="Picture of a phone">
-                <div>
+                <figure class ="cntnr--ft-cntnt cntnr--mrgn-auto">
+                    <img class ="sctn__scnd__phone main__img" src ="./assets/phone.png" alt ="Picture of a phone">
+                </figure>
+                <div class ="sctn__access">
                     <h2 class ="fnt--mdm">Access your feed form the comfort of your phone.</h2>
                     <p class ="cntnt__prgrph">
                         With native apps for both iOS and Android accessing your curated content has never been easier.
@@ -70,7 +85,7 @@
             </section>
         </main>
 
-        <footer class ="cntnr--wdth cntnr--mrgn-auto fnt--smll">
+        <footer class ="footer__cntnr cntnr--wdth cntnr--mrgn-auto fnt--smll">
             <div>
                 <h3>IndiwBrew</h3>
                 <p class ="cntnt__prgrph">
@@ -78,7 +93,7 @@
                 </p>
                 <p>Made with &#128147 in the UK</p>
             </div>
-            <section class ="footer__scnt cntnr--grd">
+            <section class ="footer__sctn cntnr--grd">
                 <ul>
                     <li><a href ="">SiteMap</a></li>
                     <li><a href ="">Homepage</a></li>

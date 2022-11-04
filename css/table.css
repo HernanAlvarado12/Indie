@@ -1,0 +1,50 @@
+@media (min-width: 624px){
+    html {
+        --fnt-lrg: 5rem;
+        --fnt-mdm: 3.4rem;
+        --fnt-smll: 1.6rem;
+    }
+
+    .nvbr__tbl {
+        display: flex;
+        column-gap: 2rem;
+        align-items: center;
+    }    
+
+    .elmt--dlt {
+        display: none;
+    }
+
+    .elmt--clr-blck {
+        color: black;
+        font-weight: 500;
+    }
+
+    .main__sctn__scnd {
+        gap: 4rem;
+        grid-template-rows: repeat(2, 0.5fr);
+        grid-template-columns: 0.7fr 0.5fr 1fr;
+    }
+
+    .sctn__curate {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .sctn__access {
+        grid-area: 2 / 2 / 3 / 4;
+    }
+
+    .main__sctn__scnd > figure:first-child {
+        align-self: center;
+    }
+    
+    .sctn__scnd__phone, .footer__sctn {
+        margin: 0;
+    }
+
+    .footer__cntnr {
+        margin-bottom: 5rem;
+        display: flex;
+        column-gap: 2rem;
+    }
+}
