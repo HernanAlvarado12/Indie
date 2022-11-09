@@ -44,6 +44,11 @@
 
 
     /*              LOGIN IN            */
-
+    .main__lgn {
+        margin: 0 auto;
+        column-gap: 8rem;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }

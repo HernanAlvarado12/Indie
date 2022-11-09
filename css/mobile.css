@@ -208,7 +208,6 @@ ul { list-style-type: none; }
 }
 
 .main__mrgn-tb {
-    min-height: 100vh;
     margin: 3rem auto 5rem auto;
 }
 
